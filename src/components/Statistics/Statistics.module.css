@@ -1,0 +1,12 @@
+.statistics {
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics_item {
+    font-size: 18px;
+}
+
+.statistics_item:not(:last-child) {
+    margin-bottom: 5px;
+}
